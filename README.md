@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MediBook
 
 MediBook is a fully responsive hospital appointment system built with React, Bootstrap 5, and local storage persistence.
@@ -25,3 +26,7 @@ MediBook is a fully responsive hospital appointment system built with React, Boo
 
 ## Live Project Link
 - Vercel / Netlify: https://your-project-name.vercel.app
+=======
+# medibook
+🏥 MediBook — A responsive Hospital Appointment Booking System built with React.js &amp; Bootstrap 5. Book doctors, manage appointments, and track booking history with full CRUD &amp; Local Storage support.
+>>>>>>> c5b7317c60d067d3ec5eae4d9be1830844f87794
