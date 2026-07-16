@@ -1,32 +1,38 @@
-<<<<<<< HEAD
-# MediBook
+# 🏥 MediBook — Hospital Appointment Booking System
 
-MediBook is a fully responsive hospital appointment system built with React, Bootstrap 5, and local storage persistence.
+MediBook is a fully responsive front-end web application that allows patients 
+to search and browse doctors, book appointments, and manage their booking 
+history — built with a clean, modern, and premium user interface.
 
-## Features
-- Browse doctors with search and filters
-- Book appointments with validation
-- View and manage booking history
-- Responsive healthcare-themed UI
+This project was built as part of the **DecodeLabs Industrial Training 
+Program (Batch 2026)**, demonstrating real-world front-end development 
+skills including reusable components, form validation, CRUD operations, 
+and Local Storage-based data persistence.
 
-## Setup
-1. Install dependencies: `npm install`
-2. Run the app: `npm run dev`
-3. Open the local URL shown by Vite
+---
 
-## Tech Stack
-- React.js
-- Bootstrap 5
+## 🔗 Live Demo
+👉 [https://medibook-ajy1.vercel.app/](https://medibook-ajy1.vercel.app/)
+
+## 💻 GitHub Repository
+👉 [https://github.com/asadkashif49-dotcom/medibook](https://github.com/asadkashif49-dotcom/medibook)
+
+---
+
+## ✨ Features
+- 🔍 Search and filter doctors by name, specialty, and availability
+- 📅 Book appointments with real-time form validation
+- 📋 View, edit/reschedule, and cancel appointments (CRUD)
+- 💾 Data persistence using Local Storage (no backend required)
+- 📱 Fully responsive design — works on mobile, tablet, and desktop
+- 🎨 Clean, modern healthcare-themed UI
+
+## 🛠️ Tech Stack
+- HTML5
 - CSS3
 - JavaScript (ES6)
-- Local Storage
+- Bootstrap 5
+- Vite (build tool)
+- Local Storage API
 
-## GitHub Repository
-- Repository: https://github.com/your-username/medibook
-
-## Live Project Link
-- Vercel / Netlify: https://your-project-name.vercel.app
-=======
-# medibook
-🏥 MediBook — A responsive Hospital Appointment Booking System built with React.js &amp; Bootstrap 5. Book doctors, manage appointments, and track booking history with full CRUD &amp; Local Storage support.
->>>>>>> c5b7317c60d067d3ec5eae4d9be1830844f87794
+## 📂 Folder Structure
