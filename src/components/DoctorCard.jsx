@@ -25,7 +25,10 @@ export default function DoctorCard({ doctor, onSelect }) {
             <div className="fw-bold text-white">${doctor.fee}/visit</div>
             <div className="small text-muted">Premium consultation</div>
           </div>
-          <button className="btn btn-primary btn-sm rounded-pill px-3" onClick={() => onSelect(doctor)}>Book Now</button>
+          <button className="btn btn-primary btn-sm rounded-pill px-3 d-inline-flex align-items-center gap-2" onClick={() => onSelect(doctor)}>
+            <span className="btn-icon">▶</span>
+            Book Now
+          </button>
         </div>
       </div>
     </div>

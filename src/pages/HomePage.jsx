@@ -33,8 +33,14 @@ export default function HomePage() {
               <h1 className="display-5 fw-bold mb-3">Premium care booking for modern hospitals and families.</h1>
               <p className="lead text-muted mb-4">Find trusted doctors, compare specialist care, and schedule visits with a polished experience built to feel like a real medical brand website.</p>
               <div className="d-flex flex-wrap gap-2 mb-4">
-                <Link className="btn btn-primary btn-lg rounded-pill px-4" to="/doctors">Browse Doctors</Link>
-                <Link className="btn btn-outline-primary btn-lg rounded-pill px-4" to="/bookings">My Bookings</Link>
+                <Link className="btn btn-primary btn-lg rounded-pill px-4 d-inline-flex align-items-center gap-2" to="/doctors">
+                  <span className="btn-icon">▶</span>
+                  Browse Doctors
+                </Link>
+                <Link className="btn btn-outline-primary btn-lg rounded-pill px-4 d-inline-flex align-items-center gap-2" to="/bookings">
+                  <span className="btn-icon">🗓</span>
+                  My Bookings
+                </Link>
               </div>
               <div className="d-flex flex-wrap gap-3">
                 <div className="stat-pill"><strong>32+</strong><span>Specialists</span></div>
